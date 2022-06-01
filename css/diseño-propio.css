@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1B1A17;
+    min-height: 16vh;
+}
+
+.encabezado{
+    color: #E6D5B8;
+    text-decoration: underline;
+}
+
+.contenedor-nav{
+    background-color: #F0A500;
+    width: 100%;
+    justify-content: center;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
+}
+
+
+.navegacion a{
+    text-decoration: none;
+    color: #354441;
+    padding: 0 15px;
+}
+
+a:hover{
+    background-color: rgb(198, 144, 25);
+}
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+/* Main */
+
+main{
+    background-image: url(../images/design2_image1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 75.5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-subtitulo{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.1cm;
+    font-size: 25px;
+    color: #E6D5B8;
+    margin: 0.5cm 0 0.5cm 3cm;
+}
+
+.agenda{
+    border: 2px dashed white;
+    background-color: #1B1A17;
+    border-radius: 5%;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+}
+
+.agenda dt{
+    font-size: 20px;
+    color: #E45826;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding: 3px; 
+}
+
+.agenda dd{
+    color: #FAF5E4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 20px 20px 20px;
+    max-width: 50vw;
+}
+
+
+.caja-agenda-img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imagen1{
+    height: 350px;
+    width: 350px;
+    border-radius: 10%;
+    border: 2px solid black;
+    box-shadow: 2px 4px 4px black;
+}
+
+.home{
+    height: 250px;
+}
+
+
+/* Footer */
+
+
+
+/* About */
+
+.imagen2{
+    height: 350px;
+    width: 350px;
+    border-radius: 10%;
+    border: 2px solid black;
+    box-shadow: 2px 4px 4px black;
+}
+
+/* Contact */
+
+.imagen3{
+    height: 350px;
+    width: 350px;
+    border-radius: 10%;
+    border: 2px solid black;
+    box-shadow: 2px 4px 4px black;
+}
+
+
+.contenedor-main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.agenda > p{
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#mail{
+    color: white;
+    text-decoration: underline;
+}
+
+.contact{
+    height: 150px;
+}
+
+/* Game Information */
+
+table, tr, th, td{
+    border: 2px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.contenedor-tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla{
+    background-color: #FABB51;
+    border-radius: 3%;
+    padding: 5rem;
+    border: 2px solid #1B1A17;
+}
+
+.parrafo-tabla{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+}
+
+
+/* Caption */
+
+caption{
+    text-align: left;
+    font-weight: 1000;
+    font-style: italic;
+    margin-bottom: 0.5rem ;
+    text-decoration: underline;
+}
+
+/* Thead */
+
+thead{
+    background-color: #1B1A17;
+    color: whitesmoke;
+    height: 3rem;
+    font-family: 'Hind', sans-serif;
+}
+
+th{
+    padding: 10px;
+}
+
+/* Tbody */
+
+tbody{
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+}
+
+/* Tfoot */
+
+/* Colgroup */
+
+.grupo1{
+    width: 3rem;
+}
+
+.grupo2{
+    width: 12rem;
+}
+
+.grupo3{
+    width: 5rem; 
+}
+
+/* Footer Game Information */
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1B1A17;
+    margin-top: 5rem;
+    color: white;
+}
+
+.pie div p{
+    padding: 0.5rem;
+    font-family: 'Hind', sans-serif;
+}
+
+.div-flex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    background-color: #1B1A17;
+    padding: 1rem;
+    font-family: 'Hind', sans-serif;
+}
+
+.div-flex p a{
+    color: white;
+    text-decoration: underline;
+}
+
+span{
+    font-weight: 900;
+    padding-left: 2rem;
+}
+
+/* Rules */
+
+.contenedor-reglas{
+    display: flex;
+    width: 60vw;
+    margin: auto;
+    background-color: rgb(226, 183, 88);
+    flex-direction: column;
+    list-style-position: inside;
+    justify-content: space-between;
+    border-radius: 2% 2%;
+    padding: 1rem;
+}
+
+.lista-inside{
+    list-style-type: lower-alpha;
+}
+
+.resaltar-li::marker{
+    font-weight: bold;
+}
+
+.li-principales{
+    margin: 1rem 0;
+}
+
+.li-secundarios{
+    padding-left: 1rem;
+}
+
+ul li{
+    list-style-type: circle;
+    padding-left: 2rem;
+}
+
+
+article dt{
+    padding-left: 2rem;
+    font-family: 'Hind', sans-serif;
+}
+
+article dd{
+    padding-left: 4rem;
+}
+
+.span-rules{
+    font-weight: 900;
+    padding-left: 0;
+}
+
+
+dl, li{
+    font-family: 'Hind', sans-serif;
+}
+
+/* Sign Up */
+
+
+form{
+    background-color: #E6D5B8;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+fieldset{
+    padding: 1rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-flex-form{
+    display: flex;
+    align-items: center;
+}
+
+.div-radio{
+    padding: 0.5rem;
+}
+
+div p.genero{
+    font-weight: lighter;
+    font-size: 16px;
+    padding-left: 1.5rem;
+}
+
+div p{
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+
+.div-form-padre{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.div-form-padre2{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.div-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.div-firma-padre{
+    padding: 0.7rem 0;
+}
+
+
+#legend-principal{
+    text-align: center;
+    font-size: 30px;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+legend, p.p-resaltar{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Hind', sans-serif;
+}
+
+
+.input-text{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    outline: none;
+}
+
+
+.parrafo-form, label, p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    width: 5rem;
+    padding: 0.5rem;
+    align-self: center;
+    margin-bottom: 1.5rem;
+    background-color: #1B1A17;
+    color: #FAF5E4;
+}
+
+.btn:hover{
+    cursor: pointer;
+    width: 6rem;
+}
+
+.tabla-form{
+    background-color: #1B1A17;
+    color: white;
+    align-items: center;
+    transform: translateX(53rem);
+    margin-top: 3rem;
+}
+
+/* Maps */
+
+.mapas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+h6{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #E6D5B8;
+    text-decoration: underline;
+    background-color: #1B1A17;
+    text-align: center;
+    border-radius: 1%;
+}
